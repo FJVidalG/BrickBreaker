@@ -15,8 +15,14 @@ public class Ball : MonoBehaviour
 
     void Update()
     {
-        rb.linearVelocity = rb.linearVelocity.normalized * speed;
+        Vector2 v = rb.linearVelocity.normalized;
+        if (v == Vector2.zero) return;
 
+        if (Mathf.Abs(v.y) < 0.2f)
+        {
+            v.y = v.y >= 0 ? 0.2f : -0.2f;
+        }
+        rb.linearVelocity = v.normalized * speed;
     }
 
     public void Launch(Vector2 dir)
