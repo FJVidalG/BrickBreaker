@@ -33,13 +33,13 @@ La pala lanza la pelota a los dos segundos de empezar. Hay que romper todos los 
 
 ## Tecnologías
 
-Unity 6 (6000.0.31f1), C#, física 2D.
+Unity 6 (6000.6.4f1), C#, física 2D.
 
 Los gráficos son de dominio público o generados con IA.
 
 ## Abrir el proyecto
 
-Clonar el repositorio y abrir la carpeta desde Unity Hub con la versión 6000.0.31f1 o posterior. La primera vez Unity regenera la carpeta `Library`, que no se sube al repositorio.
+Clonar el repositorio y abrir la carpeta desde Unity Hub con la versión 6000.6.4f1 o posterior. La primera vez Unity regenera la carpeta `Library`, que no se sube al repositorio.
 
 ## Autor
 
